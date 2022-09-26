@@ -35,3 +35,15 @@ header h1 {
     margin-bottom: 1rem;
     color: var(--gray);
 }
+
+#new-task-form{
+    display: flex;
+}
+
+input, button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+
+}

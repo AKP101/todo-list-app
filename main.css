@@ -30,7 +30,7 @@ header{
 }
 
 header h1 {
-    font-size: 2.5 rem;
+    font-size: 2.5rem;
     font-weight: 300;
     margin-bottom: 1rem;
     color: var(--gray);
@@ -46,4 +46,13 @@ input, button{
     outline: none;
     background: none;
 
+}
+
+#new-task-input{
+    flex: 1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
 }
